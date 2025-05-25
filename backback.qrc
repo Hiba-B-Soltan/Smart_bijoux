@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/oooo">
+        <file>ccccccc.png</file>
+        <file>boutton.jpg</file>
+    </qresource>
+</RCC>
