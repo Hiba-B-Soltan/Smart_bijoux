@@ -1,0 +1,12 @@
+{
+  "providers": [
+    {
+      "name": "My Custom Map",
+      "type": "osm",
+      "url": "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "attribution": "© OpenStreetMap contributors",
+      "maxZoom": 18
+    },
+    
+  ]
+}
