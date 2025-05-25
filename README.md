@@ -168,5 +168,5 @@ Click Upload to flash the board
 
 📫 Contact
 For any queries or suggestions, contact:
-Ameny.benzaghdane@esprit.tn
+Hiba.bensoltan@esprit.tn
 
