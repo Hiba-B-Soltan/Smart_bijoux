@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>promo</class>
+ <widget class="QDialog" name="promo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>359</width>
+    <height>123</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="recherche">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>40</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Génerer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Donner l'id du client :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_recherche">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>40</y>
+     <width>162</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px; /* Space inside the line edit */
+    background-color: white; /* Background color */
+    selection-background-color: lightblue; /* Background color of selected text */
+    selection-color: black; /* Text color of selected text */
+    min-width: 150px; /* Minimum width of the line edit */
+}
+
+QLineEdit:focus {
+    border-color: #3498db; /* Border color when focused */
+    box-shadow: 0 0 5px #3498db; /* Shadow when focused */
+}
+
+QLineEdit::placeholder {
+    color: #999; /* Placeholder text color */
+}
+
+QLineEdit::hover {
+    border-color: #aaa; /* Border color on hover */
+}
+</string>
+   </property>
+   <property name="placeholderText">
+    <string>ID du client</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="close">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>80</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
