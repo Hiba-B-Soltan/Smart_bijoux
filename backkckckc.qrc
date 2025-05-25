@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/ooooo">
+        <file>iii.jpg</file>
+<<<<<<< HEAD
+        <file>kaka (1) (1).png</file>
+=======
+>>>>>>> 1b7f71e09592fa301e382e3d84185b747bfe5580
+    </qresource>
+</RCC>
