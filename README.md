@@ -49,7 +49,7 @@ git clone https://github.com/Hiba-B-Soltan/Smart_bijoux.git
 cd Smart_bijoux
 ```
 
-1. **Open the project** — launch Qt Creator and open `produis/Gestion_Produit.pro`
+1. **Open the project** — launch Qt Creator and open the project`
 2. **Set up the database** — start WampServer, go to `http://localhost/phpmyadmin`, create a database (e.g. `bijouterie`), and import `database/bijouterie.sql`
 
 3. **Run** — press `Ctrl+R` in Qt Creator
